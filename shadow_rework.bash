@@ -368,7 +368,7 @@ function draw_level ()
     local temp_char=0
     local rand_temp=0
     local level_buffer=()
-    local empty_level="level${1}[*]:-()"
+    local empty_level="level${1}[*]" #:-()"
     local wall_color=
     local wall_char=
     local background_color=
